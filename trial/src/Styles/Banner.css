@@ -1,0 +1,74 @@
+.banner {
+  display:flex;
+  flex-direction: row;
+  margin: 140px 100px;
+  justify-content: space-between;
+}
+
+.icon{
+   margin: 50px 25px;
+   display: flex;
+   flex-direction: column;
+   gap:20px;
+}
+
+.left{
+  margin: 35px 0px;
+  z-index: 2;
+  font-size: 1rem;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    margin:0px 10px;
+    z-index: 2;
+}
+
+.center p{
+  margin:10px 10px;
+}
+
+.one{
+    align-items: center;
+    display:flex;
+    gap: 1rem;
+    flex-direction: row;
+}
+
+.oneLine{
+    width:5rem;
+    height:1px;
+    margin: 0%;
+    padding: 0%;
+    background-color: hsl(38, 89%, 58%);
+    color:hsl(38, 89%, 58%);
+}
+
+.center .two{
+    font-weight:900;
+    font-size:4rem;
+    text-align: start;
+}
+
+.center .three{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 0;
+}
+
+.right{
+    z-index: 2;
+    font-size: 1rem;
+}
