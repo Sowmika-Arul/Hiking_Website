@@ -1,0 +1,48 @@
+.div{
+    display: flex;
+    flex-direction: row;
+   justify-content:space-between;
+   margin: 0px 220px;
+   gap: 10rem;
+}
+
+.div1{
+    display: 1;
+}
+
+.div1 h1{
+    font-size:150px;
+    font-weight:bolder;
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+    opacity: 4.9%;
+    color:white;
+}
+
+.div11{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: -130px;
+    margin-left: 120px;
+    letter-spacing: 5px;
+}
+
+.div2{
+    display: 1;
+}
+
+.div12{
+    margin-left: 95px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.4rem;
+    color: rgb(232, 152, 41) !important;
+}
+
+.div12 p{
+    color: rgb(232, 152, 41);
+}

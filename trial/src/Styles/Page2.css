@@ -1,0 +1,52 @@
+.page2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 220px;
+    gap: 7rem;
+    margin-top: 50px;
+}
+
+.page21{
+    flex :1;
+}
+
+.page22{
+    flex:1;
+}
+
+.page221{
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+}
+
+.page22 h1{
+    font-size:150px;
+    font-weight:bolder;
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+    opacity: 4.9%;
+    color:white;
+}
+
+.page222{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 95px;
+}
+
+.page222 p{
+    color: rgb(232, 152, 41);
+}
+
+.arrow-icon {
+    color: rgb(232, 152, 41) !important;
+  }
