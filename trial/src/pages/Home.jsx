@@ -4,6 +4,7 @@ import Banner from '../components/Banner';
 import Page1 from '../components/Page1';
 import Page2 from '../components/Page2';
 import Page3 from '../components/Page3';
+import Footer from '../components/Footer';
 import image from '../Assets/background.png';
 const Home = () =>
 {
@@ -13,10 +14,11 @@ const Home = () =>
          <Header/>
          <Banner/>
          </section>
-         <div className='new' style={{ backgroundColor: 'rgb(11, 29, 38)' }}>
+         <div className='new' style={{ backgroundColor: 'rgb(11, 29, 38)'}}>
             <Page1/>
             <Page2/>
             <Page3/>
+            <Footer/>
          </div>
         </div>
     )

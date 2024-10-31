@@ -18,7 +18,7 @@ const Page1 = () => (
     </div>
 </div>
 <div className='div2'>
-<img src={page1} alt="Description" style={{height: '500px', width: '400px' }}/>
+<img src={page1} alt="Description" style={{height: '500px', width: '400px', marginTop: '10px' }}/>
 </div>
 </div>
 )

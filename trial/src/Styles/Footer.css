@@ -1,0 +1,22 @@
+.footer{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer h4{
+    color: rgb(232, 152, 41);
+}
+
+.foot1{
+    margin-left: 250px;
+    flex:2;
+}
+
+.foot2{
+    flex:1;
+}
+
+.foot3{
+    flex:1;
+}
